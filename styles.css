@@ -4,10 +4,12 @@ html, body{
 	background-color: #DDDDDD;	
 }
 .navbar{
+	width: 100%;
 	background-color: #515151;
 	color: #FFFFFF;
 	border:0;
   	border-radius:0;
+  	position: fixed;
 }
 .navbar-nav li a {
   	color:#FFFFFF;
@@ -20,15 +22,22 @@ html, body{
 .header{
 	font-family: arial;
 	text-align: center;
-	padding: 175px 0;
+	padding: 15vw 0;
 }
 .name{
-	font-size: 100px;
+	font-size: 9vw;
 	font-weight: bold;
 }
 .title{
-	font-size: 50px;
+	font-size: 3vw;
 	text-align: center;
+}
+.fillerPictureContainer{
+	height: 35vw;
+}
+.fillerPicture{
+	height: 100%;
+	width: 100%;
 }
 .about{
 	background-color: #515151;
@@ -36,13 +45,13 @@ html, body{
 	color: #FFFFFF;
 }
 .aboutHead{
-	font-size: 50px;
+	font-size: 5vw;
 	text-align: center;
 }
 .aboutText{
-	font-size: 30px;
+	font-size: 2vw;
 	text-align: justify;
-	margin: 20px 200px;
+	margin: 3vw 10vw;
 }
 .aboutLinks{
 	display: flex;
@@ -52,17 +61,34 @@ html, body{
 .logoLink{
 	height: 75px;
 	width: 75px;
-	margin: 10px 40px;
+	margin: 2vw 5vw;
 	background-color: grey;
 }
 .logo{
 	width: 100%;
 }
 .resume{
-	padding: 20px 100px;
+	padding: 3vw 10vw;
+	background-image: ;
 }
 .resumeContent{
-	font-size: 30px;
+	font-size: 2vw;
+}
+.skills {
+	-webkit-column-count: 3;
+	clear: right;
+}
+.skills p{
+	font-weight: bold;
+}
+.resumeGroup {
+	margin: 2vw 0;
+}
+.resumeGroup p{
+	margin: 0 40px;
+}
+.resumeGroup li{
+	font-size: 1.5vw;
 }
 .projects{
 	padding: 40px 200px;
