@@ -7,13 +7,14 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
+	<div id="top"></div>
 	<div class="navbar navbar-static">
 		<div class="container">
-			<ul class="nav pull-right navbar-nav">
-				<li><a>Home</a></li>
-				<li><a>About</a></li>
-				<li><a>Resume</a></li>
-				<li><a>Projects</a></li>
+			<ul class="nav pull-right navbar-nav page-navigation">
+				<li><a href='#top'>Home</a></li>
+				<li><a href='#about'>About</a></li>
+				<li><a href='#resume'>Resume</a></li>
+				<li><a href='#projects'>Projects</a></li>
 			</ul>
 		</div>
 	</div>
@@ -22,7 +23,7 @@
 		<div class="title">Developer</div>
 	</div>
 	<div class="fillerPictureContainer"><img class="fillerPicture" src="images/lake.jpg"></div>
-	<div class="about">
+	<div class="about" id="about">
 		<div class="aboutHead">About Me</div>
 		<div class="aboutText">Detail-oriented, organized, self-motivated, and team player. Background working with a variety of customers and vendors, along with other employees.  Great at completing assigned tasks in professional and timely manner.</div>
 		<div class="aboutLinks">
@@ -30,7 +31,7 @@
 			<a class="logoLink" href="https://github.com/jacobgpeterson"><img class="logo" src="images/github.png"></a>
 		</div>
 	</div>
-	<div class="resume">
+	<div class="resume" id="resume">
 		<div class="resumeContent">
 			<div><b>Skills:</b></div>
 			<div class="resumeGroup skills">
@@ -60,7 +61,8 @@
 				</ul>
 				<ul><b>Private Care Provider:</b> <i>Feb. 2009 - Nov. 2012</i>
 					<li>Provided care and support for homebound patient.</li>
-					<li>Drove and escorted patient to and from various appointments and errand.</li>
+					<li>Kept track of appointments and made sure that patient arrived punctually.</li>
+					<li></li>
 				</ul>
 			</div>
 			<div class="resumeGroup"><b>Education:</b>
@@ -73,7 +75,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="projects">
+	<div class="projects" id="projects">
 		<div class="title">My Projects</div>
 		<div class="projectLinks">
 			<a><div class="projectName">Pick-Up Sports
@@ -84,7 +86,9 @@
 			</div></a>
 		</div>
 	</div>
-	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
+	<script src="jquery.combinedScroll.js"></script>
 	<script src="app.js"></script>
 </body>
 </html>

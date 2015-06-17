@@ -33,7 +33,7 @@ html, body{
 	text-align: center;
 }
 .fillerPictureContainer{
-	height: 35vw;
+	height: 40vw;
 }
 .fillerPicture{
 	height: 100%;
@@ -41,7 +41,7 @@ html, body{
 }
 .about{
 	background-color: #515151;
-	padding: 20px;
+	padding: 4vw;
 	color: #FFFFFF;
 }
 .aboutHead{
@@ -68,7 +68,7 @@ html, body{
 	width: 100%;
 }
 .resume{
-	padding: 3vw 10vw;
+	padding: 5vw 10vw;
 	background-image: ;
 }
 .resumeContent{
@@ -91,16 +91,15 @@ html, body{
 	font-size: 1.5vw;
 }
 .projects{
-	padding: 40px 200px;
+	padding: 5vw 10vw;
 	background-color: #515151;
-	padding: 20px;
 	color: #FFFFFF;
 }
 .projectLinks{
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	margin: 20px;
+	margin: 2vw;
 }
 .projectLinks a{
 	text-decoration: none;
