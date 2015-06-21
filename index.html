@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="personalSite">
 <head>
 	<title>Jacob Peterson</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -7,88 +7,12 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<div id="top"></div>
-	<div class="navbar navbar-static">
-		<div class="container">
-			<ul class="nav pull-right navbar-nav page-navigation">
-				<li><a href='#top'>Home</a></li>
-				<li><a href='#about'>About</a></li>
-				<li><a href='#resume'>Resume</a></li>
-				<li><a href='#projects'>Projects</a></li>
-			</ul>
-		</div>
-	</div>
-	<div class="header">
-		<div class="name">Jacob Peterson</div>
-		<div class="title">Developer</div>
-	</div>
-	<div class="fillerPictureContainer"><img class="fillerPicture" src="images/lake.jpg"></div>
-	<div class="about" id="about">
-		<div class="aboutHead">About Me</div>
-		<div class="aboutText">Detail-oriented, organized, self-motivated, and team player. Background working with a variety of customers and vendors, along with other employees.  Great at completing assigned tasks in professional and timely manner.</div>
-		<div class="aboutLinks">
-			<a class="logoLink" href="https://www.linkedin.com/pub/jacob-peterson/ba/3a2/714"><img class="logo" src="images/linkedin.png"></a>
-			<a class="logoLink" href="https://github.com/jacobgpeterson"><img class="logo" src="images/github.png"></a>
-		</div>
-	</div>
-	<div class="resume" id="resume">
-		<div class="resumeContent">
-			<div><b>Skills:</b></div>
-			<div class="resumeGroup skills">
-				<p>Web Development</p>
-				<p>HTML5</p>
-				<p>CSS</p>
-				<p>Javascript</p>
-				<p>Angular</p>
-				<p>Jquery</p>
-				<p>Nodejs</p>
-				<p>MongoDB</p>
-				<p>Git</p>
-				<p>Github</p>
-				<p>CAD</p>
-				<p>Customer Service</p>
-			</div>
-			<div class="resumeGroup"><b>Experience:</b>
-				<ul><b>Vivint Solar:</b> <i>Nov. 2014 - Mar. 2015</i> <b>CAD Designer</b>
-					<li>Designed site plans for residential solar installation.</li> 
-					<li>Factored data and input information into documents for permitting.</li>  
-					<li>Designed systems for commercial structures as needed.</li>
-				</ul>
-				<ul><b>Macey's:</b> <i>Mar. 2012 - Dec. 2014</i><b>Front End Supervisor</b>
-					<li>Supervised and motivated employees for work quality and productivity.</li>
-					<li>Served customers to help ensure a positive customer service experiences.</li>
-					<li>Trained new employees on multiple tasks, including how to use computer systems</li>
-				</ul>
-				<ul><b>Private Care Provider:</b> <i>Feb. 2009 - Nov. 2012</i>
-					<li>Provided care and support for homebound patient.</li>
-					<li>Kept track of appointments and made sure that patient arrived punctually.</li>
-					<li></li>
-				</ul>
-			</div>
-			<div class="resumeGroup"><b>Education:</b>
-				<p><b>Devmountain</b>
-					<p><i>MEAN Stack Development</i></p>
-				</p>
-				<p><b>Utah Valley University</b>
-					<p><i>Bachelor of Science in Psychology</i></p>
-				</p>
-			</div>
-		</div>
-	</div>
-	<div class="projects" id="projects">
-		<div class="title">My Projects</div>
-		<div class="projectLinks">
-			<a><div class="projectName">Pick-Up Sports
-				<div class="imageLink"></div>
-			</div></a>
-			<a><div class="projectName">Bitcurve
-				<div class="imageLink"></div>
-			</div></a>
-		</div>
-	</div>
+<div class="viewContainer" ng-view></div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
-	<script src="jquery.combinedScroll.js"></script>
+	<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js'></script>
+ 	<script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-route.min.js'></script>
+	<script src="js/jquery.combinedScroll.js"></script>
 	<script src="app.js"></script>
+	<script src="js/scroll.js"></script>
 </body>
 </html>

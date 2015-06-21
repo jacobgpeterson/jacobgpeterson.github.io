@@ -3,6 +3,9 @@ html, body{
 	width: 100%;
 	background-color: #DDDDDD;	
 }
+.viewContainer{
+	width: 100%;
+}
 .navbar{
 	width: 100%;
 	background-color: #515151;
@@ -33,15 +36,22 @@ html, body{
 	text-align: center;
 }
 .fillerPictureContainer{
-	height: 40vw;
+	height: 35vw;
 }
 .fillerPicture{
 	height: 100%;
 	width: 100%;
+	background-image: url('../images/codebackground.png');
+	background-size: 100% 100%;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
 }
 .about{
-	background-color: #515151;
-	padding: 4vw;
+	background-image: url('../images/background-blue.jpg');
+	background-size: 100% 100%;
+  	background-repeat: no-repeat;
+/*  	background-attachment: fixed;
+*/	padding: 4vw;
 	color: #FFFFFF;
 }
 .aboutHead{
@@ -62,7 +72,6 @@ html, body{
 	height: 75px;
 	width: 75px;
 	margin: 2vw 5vw;
-	background-color: grey;
 }
 .logo{
 	width: 100%;
@@ -91,8 +100,10 @@ html, body{
 	font-size: 1.5vw;
 }
 .projects{
-	padding: 5vw 10vw;
-	background-color: #515151;
+	padding: 5vw 5vw;
+	background-image: url('../images/background-blue.jpg');
+	background-size: 100% 100%;
+  	background-repeat: no-repeat;
 	color: #FFFFFF;
 }
 .projectLinks{
@@ -106,7 +117,7 @@ html, body{
 	color: #FFFFFF;
 }
 .projectLinks a:hover{
-	color: blue;
+	color: #000000;
 }
 .projectName {
 	text-align: center;
@@ -115,7 +126,32 @@ html, body{
 .imageLink{
 	height: 15vw;
 	width: 28vw;
-	background-color: grey;
+	margin: 2vw 5vw;
+}
+.screenshot{
+	width: 100%;
+}
+.returnContainer{
+	background-color: #515151;
+	padding: 1vw;
+}
+.returnHome{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.returnHome:hover{
+	color:red;
+	background-color: #FFFFFF;
+	text-decoration: none;
+}
+.projectTitle{
+	font-size: 5vw;
+	text-align: center;
+}
+.screenCapture{
+	width: 90%;
+	min-width: 350px;
+	min-height: 200px;
 	margin: 2vw 5vw;
 }
 @media (max-width: 767px){
