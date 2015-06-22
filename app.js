@@ -1,4 +1,4 @@
-var app = angular.module('personalSite', ['ngRoute']);
+var app = angular.module('personalSite', ['ngRoute', 'duScroll']);
 
 app.config(function($routeProvider){
 	$routeProvider
@@ -14,8 +14,3 @@ app.config(function($routeProvider){
 		redirectTo: '/home'
 	})
 })
-
-
-jQuery(document).ready(function($) {
-  $('.page-navigation').onePageNav();
-});

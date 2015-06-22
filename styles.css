@@ -69,8 +69,8 @@ html, body{
 	justify-content: center;
 }
 .logoLink{
-	height: 75px;
-	width: 75px;
+	height: 7vw;
+	width: 7vw;
 	margin: 2vw 5vw;
 }
 .logo{
@@ -124,8 +124,8 @@ html, body{
 	font-size: 2vw
 }
 .imageLink{
-	height: 15vw;
-	width: 28vw;
+	height: 16vw;
+	width: 30vw;
 	margin: 2vw 5vw;
 }
 .screenshot{
@@ -140,7 +140,7 @@ html, body{
 	color: #FFFFFF;
 }
 .returnHome:hover{
-	color:red;
+	color: #F19522;
 	background-color: #FFFFFF;
 	text-decoration: none;
 }
