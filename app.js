@@ -8,7 +8,9 @@ app.config(function($routeProvider){
 	})
 	.when('/pickup', {
 		templateUrl:'/templates/pickup.html',
-		controller:'pickupCtrl'
+	})
+	.when('/bitcurve', {
+		templateUrl:'/templates/bitcurve.html',
 	})
 	.otherwise({
 		redirectTo: '/home'
