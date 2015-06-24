@@ -32,7 +32,7 @@ html, body{
 	font-weight: bold;
 }
 .title{
-	font-size: 3vw;
+	font-size: 4vw;
 	text-align: center;
 }
 .fillerPictureContainer{
@@ -55,9 +55,22 @@ html, body{
 	color: #FFFFFF;
 }
 .aboutText{
-	font-size: 2vw;
+	font-size: 3vw;
 	text-align: justify;
-	margin: 3vw 10vw;
+	margin: 3vw 10vw 5vw;
+}
+.contactTitle{
+	font-size: 3vw;
+	text-align: center;
+}
+.aboutEmail{
+	font-size: 2vw;
+	text-align: center;
+	margin: 1vw;
+}
+.aboutEmail a:hover{
+	text-decoration: none;
+	color: #000000;
 }
 .aboutLinks{
 	display: flex;
