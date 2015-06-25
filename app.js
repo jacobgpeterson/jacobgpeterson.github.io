@@ -8,6 +8,7 @@ app.config(function($routeProvider){
 	})
 	.when('/pickup', {
 		templateUrl:'/templates/pickup.html',
+		controller:''
 	})
 	.when('/bitcurve', {
 		templateUrl:'/templates/bitcurve.html',
