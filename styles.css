@@ -57,8 +57,7 @@ html, body{
 	background-image: url('../images/brown.jpg');
 	background-size: 100%;
   	background-repeat: no-repeat;
-/*  	background-attachment: fixed;
-*/	padding: 4vw;
+	padding: 4vw;
 	color: #FFFFFF;
 }
 .aboutText{
@@ -89,6 +88,7 @@ html, body{
 	display: -webkit-flex;
 	display: flex;
 	flex-flow: row wrap;
+	-webkit-justify-content: center;
 	justify-content: center;
 	margin: 0 auto;
 }
@@ -148,6 +148,7 @@ html, body{
 	display: -webkit-flex;
 	display: flex;
 	flex-flow: row wrap;
+	-webkit-justify-content: center;
 	justify-content: center;
 	margin: 2vw;
 }
