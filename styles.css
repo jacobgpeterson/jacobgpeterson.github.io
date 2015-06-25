@@ -8,11 +8,12 @@ html, body{
 }
 .navbar{
 	width: 100%;
-	background-color: #515151;
+	background-color: #41638D;
 	color: #FFFFFF;
 	border:0;
   	border-radius:0;
   	position: fixed;
+  	opacity: 0.98;
 }
 .navbar-nav li a {
   	color:#FFFFFF;
@@ -47,8 +48,8 @@ html, body{
   	background-attachment: fixed;
 }
 .about{
-	background-image: url('../images/background-blue.jpg');
-	background-size: 100% 100%;
+	background-image: url('../images/brown.jpg');
+	background-size: 100%;
   	background-repeat: no-repeat;
 /*  	background-attachment: fixed;
 */	padding: 4vw;
@@ -56,8 +57,11 @@ html, body{
 }
 .aboutText{
 	font-size: 3vw;
-	text-align: justify;
+	text-align: left;
 	margin: 3vw 10vw 5vw;
+}
+.aboutText p:nth-child(2){
+	text-align: right;
 }
 .contactTitle{
 	font-size: 3vw;
@@ -66,17 +70,35 @@ html, body{
 .aboutEmail{
 	font-size: 2vw;
 	text-align: center;
-	margin: 1vw;
+	margin: 1vw 0 3vw; 
+}
+.aboutEmail a{
+	color: #FFFFFF;;
 }
 .aboutEmail a:hover{
 	text-decoration: none;
-	color: #000000;
+	color: #5500FF;
 }
 .aboutLinks{
 	display: -webkit-flex;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
+	margin: 0 auto;
+}
+.linkedinLink{
+	background-image: url('../images/linkedinwb.png');
+	background-size: 100%
+}
+.githubLink{
+	background-image: url('../images/githubwb.png');
+	background-size: 100%
+}
+.linkedinLink:hover{
+	background-image: url('../images/linkedin.png');
+}
+.githubLink:hover{
+	background-image: url('../images/github.png');
 }
 .logoLink{
 	height: 7vw;
@@ -111,7 +133,7 @@ html, body{
 }
 .projects{
 	padding: 5vw 5vw;
-	background-image: url('../images/background-blue.jpg');
+	background-image: url('../images/brown.jpg');
 	background-size: 100% 100%;
   	background-repeat: no-repeat;
 	color: #FFFFFF;
@@ -128,7 +150,7 @@ html, body{
 	color: #FFFFFF;
 }
 .projectLinks a:hover{
-	color: #000000;
+	color: #5500FF;
 }
 .projectName {
 	text-align: center;
@@ -143,7 +165,7 @@ html, body{
 	width: 100%;
 }
 .returnContainer{
-	background-color: #515151;
+	background-color: #41638D;
 	padding: 1vw;
 }
 .returnHome{
