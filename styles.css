@@ -28,12 +28,33 @@ html, body{
 	text-align: center;
 	padding: 15vw 0;
 }
-.hiddenContainer{
-	height: 50px;
-	width: 50px;
+.shhContainer{
+	height: 7vw;
+	width: 7vw;
 	position: absolute;
 	opacity: 0.0;
 	margin-left: 90%;
+}
+.secretContainer{
+	height: 7vw;
+	width: 7vw;
+	position: absolute;
+	opacity: 0.0;
+	margin-top: 70%;
+	margin-left: 30%;
+}
+.wolverineContainer{
+	height: 7vw;
+	width: 7vw;
+	position: absolute;
+	opacity: 0.0;
+	margin-top: 195%;
+	margin-left: 80%;
+}
+.hiddenVideo{
+	height: 40vw;
+	width: 70%;
+	margin: 2vw auto;
 }
 .name{
 	font-size: 9vw;
@@ -82,7 +103,7 @@ html, body{
 }
 .aboutEmail a:hover{
 	text-decoration: none;
-	color: #5500FF;
+	color: #F19522;
 }
 .aboutLinks{
 	display: -webkit-flex;
@@ -157,7 +178,7 @@ html, body{
 	color: #FFFFFF;
 }
 .projectLinks a:hover{
-	color: #5500FF;
+	color: #F19522;
 }
 .projectName {
 	text-align: center;

@@ -19,6 +19,9 @@ app.config(function($routeProvider){
 	.when('/secret', {
 		templateUrl:'/templates/secret.html'
 	})
+	.when('/wolverine', {
+		templateUrl:'/templates/wolverine.html'
+	})
 	.otherwise({
 		redirectTo: '/home'
 	})
