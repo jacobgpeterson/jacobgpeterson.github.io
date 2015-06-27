@@ -13,6 +13,12 @@ app.config(function($routeProvider){
 	.when('/bitcurve', {
 		templateUrl:'/templates/bitcurve.html',
 	})
+	.when('/shh', {
+		templateUrl:'/templates/shh.html'
+	})
+	.when('/secret', {
+		templateUrl:'/templates/secret.html'
+	})
 	.otherwise({
 		redirectTo: '/home'
 	})
