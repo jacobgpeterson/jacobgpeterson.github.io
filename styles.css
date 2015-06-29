@@ -51,6 +51,14 @@ html, body{
 	margin-top: 195%;
 	margin-left: 80%;
 }
+.brodusContainer{
+	height: 5vw;
+	width: 5vw;
+	position: absolute;
+	opacity: 0.0;
+	margin-top: 205%;
+	margin-left: 10%;
+}
 .hiddenVideo{
 	height: 40vw;
 	width: 70%;

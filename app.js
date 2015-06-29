@@ -22,6 +22,9 @@ app.config(function($routeProvider){
 	.when('/wolverine', {
 		templateUrl:'/templates/wolverine.html'
 	})
+	.when('/brodus', {
+		templateUrl:'/templates/brodus.html'
+	})
 	.otherwise({
 		redirectTo: '/home'
 	})
